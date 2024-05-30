@@ -5,415 +5,249 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class=" container ">
-    <div class="bg-black text-light">
+<body>
+    <div class="container bg-black text-light">
         <!-- Header -->
-        <header class="container sticky-top">
-            <nav class=" navbar navbar-expand-lg navbar-light bg-none  ">
-                <div class="mx-5">
-                    <a class="navbar-brand fs-3 text-shadow- " href="#"><span>Lakshiga</span> Mahintherrajaa</a>
-                </div>
-                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto p-3">
-                        <li class="nav-item active " aria-current="page"><a class="nav-link fs-3 fw-bold" href="#about">
-                                Home </a></li>
-                        <li class="nav-item"><a class="nav-link fs-3 " href="#about1"> About</a></li>
-                        <li class="nav-item"><a class="nav-link fs-3 " href="#education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link fs-3 " href="#education">projects</a></li>
-                        <li class="nav-item"><a class="nav-link fs-3 " href="#experience">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link fs-3 " href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link fs-3 " href="#blog">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link fs-3 " href="#contact">Contact</a></li>
-                    </ul>
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-none">
+                <div class="container">
+                    <a class="navbar-brand fs-3 text-shadow" href="#"><span>Lakshiga</span> Mahintherrajaa</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link fs-5 fw-bold" href="#about">Home</a></li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#about1">About</a></li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#education">Education</a></li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#project">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#experience">Experience</a></li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#skills">Skills</a></li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link fs-5" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>
 
         <!-- About Me -->
-        <section style="margin-top:12%" id="about" class="container">
-            <div class="row">
-                <div class="col-md-6 box-shadow">
-                    <img src="image/profile.jpg" alt="Your Photo"
-                        class="img-fluid border rounded-circle mx-auto d-block " width="60%"
-                        style="box-shadow:10px 10px 10px rgb(47, 209, 221)">
+        <section id="about" class="mt-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="image/profile.jpg" alt="Your Photo" class="img-fluid border rounded-circle mx-auto d-block" style="max-width: 60%; box-shadow: 10px 10px 10px rgb(47, 209, 221)">
                 </div>
-                <div class="col-1g-6 col-md-6 text-md-block text-center">
+                <div class="col-md-6 text-center text-md-start">
                     <h1 class="title-text mt-5">Hey</h1>
-                    <h1 class="title-text text-uppercase">I am<b class="text-info"> Lakshiga</b> </h1>
+                    <h1 class="title-text text-uppercase">I am <b class="text-info">Lakshiga</b></h1>
                     <h3 class="title-text text-uppercase">Web Designer</h3>
-                    <p style="font-size: 25px;">I am a student developer with a solid foundation in computer science ,
-                        proficient in Python , HTML, and CSS, with a keen interest in web development , AI,and
-                        open-source contribution . i enjoy building web and mobile applications using frameworks . My
-                        career goals include becoming a Fill stack web developer leading tech teams or starting my own
-                        tech company . I activity participate in Uki coding school to improve my web development skills
-                        . i am eager to learn , adaptable , and driven to make a meaningful impact through innovative
-                        software solutions.
-                    </p>
-                    <div class="site-buttons">
-                        <div class="row gap-2 d-lg-block">
-                            <button type="button" class="col-md-4 offset-md-1 btn btn-info mr-4 text-uppercase"
-                                style="box-shadow:5px 5px 10px rgb(47, 209, 221)">
-                                hire me
-                            </button>
-                            <button type="button" class=" col-md-4 btn btn-light text-uppercase"
-                                style="box-shadow:5px 5px 10px white">
-                                Get cv
-                            </button>
+                    <p style="font-size: 1.25rem;">I am a student developer with a solid foundation in computer science, proficient in Python, HTML, and CSS, with a keen interest in web development, AI, and open-source contribution. I enjoy building web and mobile applications using frameworks. My career goals include becoming a Full Stack web developer, leading tech teams, or starting my own tech company. I actively participate in Uki coding school to improve my web development skills. I am eager to learn, adaptable, and driven to make a meaningful impact through innovative software solutions.</p>
+                    <div class="d-grid gap-2 d-md-block">
+                        <button type="button" class="btn btn-info text-uppercase" style="box-shadow: 5px 5px 10px rgb(47, 209, 221)">Hire me</button>
+                        <button type="button" class="btn btn-light text-uppercase" style="box-shadow: 5px 5px 10px white">Get CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        
+        <!-- About Section -->
+        <section id="about1" class="container mt-5">
+            <div class="col-md-8 mx-auto">
+                <h2 class="about1 text-center py-5">About me</h2>
+                <p class="aboutp text-center">My name is Lakshiga Mahintherrajaa. I am a dedicated table tennis player at the national level, constantly striving to improve my skills and compete at the highest levels. Academically, I completed my diploma in Information and Communication Technology (ICT) at ICBT Campus, where I developed a solid foundation in various technical disciplines. My educational journey equipped me with practical knowledge and hands-on experience in ICT, preparing me for a career in technology. To further enhance my professional experience, I completed an internship at BOC Bank. This training provided me with valuable insights into the banking industry and practical experience in applying my ICT skills in a real-world setting. Welcome to my portfolio, where you can explore my journey, projects, and accomplishments in both the ICT field and my table tennis career.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Education -->
+        <section id="education" class="container mt-5">
+            <h2 class="text-center fw-bold fs-1 mt-5">Education</h2>
+            <div class="row justify-content-around">
+                <div class="card col-md-3 mx-3 my-3" style="box-shadow: 2px 4px 9px rgb(98, 221, 228);">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-info text-center">
+                            <h3 class="fw-bold">High School</h3>
+                        </li>
+                        <li class="list-group-item">Attended J/Vembadi Girls High School, where I developed a strong academic foundation and a passion for technology. During my time there, I excelled in subjects like Mathematics, Arts, and Computer Science, participated in Art clubs, and engaged in various extracurricular activities such as drawing competitions and quiz competitions.</li>
+                        <li class="list-group-item">Duration: 2013-2021</li>
+                    </ul>
+                </div>
+
+                <div class="card col-md-3 mx-3 my-3" style="box-shadow: 2px 4px 9px rgb(98, 221, 228);">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-info text-center">
+                            <h3 class="fw-bold">ICBT Campus</h3>
+                        </li>
+                        <li class="list-group-item">I attended ICBT Campus of Jaffna where I pursued a Certification in ICT Technician, emphasizing both theoretical knowledge and practical skills. Through comprehensive coursework, hands-on projects, and internships, I have gained proficiency in programming languages such as Python, HTML, and CSS, and Microsoft Office management skills.</li>
+                        <li class="list-group-item">Duration: 2022-2023</li>
+                    </ul>
+                </div>
+
+                <div class="card col-md-3 mx-3 my-3" style="box-shadow: 2px 4px 9px rgb(98, 221, 228);">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-info text-center">
+                            <h3 class="fw-bold">Uki Coding School</h3>
+                        </li>
+                        <li class="list-group-item">I am currently enrolled at Uki Coding School, a cutting-edge institution dedicated to providing top-tier education in Full Stack Web development. At Uki Coding School, I am learning programming languages like HTML, CSS, JavaScript, and Java, as well as modern development frameworks such as React and Node.js.</li>
+                        <li class="list-group-item">Duration: 2024-Following</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Project -->
+        <section id="project" class="container mt-5">
+            <h2 class="text-center fw-bold fs-1 mt-5">Projects</h2>
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-4 col-6 my-3">
+                    <a href="https://github.com/"><img src="image/project_management_coursefees.avif" class="card-img-top mx-auto d-block" style="width: 200px; height: 200px;" alt="Project Image"></a>
+                </div>
+                <div class="col-md-4 col-6 my-3">
+                    <a href="https://github.com/"><img src="image/project-management.webp" class="card-img-top mx-auto d-block" style="width: 200px; height: 200px;" alt="Project Image"></a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Experience -->
+        <section id="experience" class="container mt-5">
+            <h2 class="text-center fw-bold fs-1 mt-5">Experience</h2>
+            <div class="row d-flex justify-content-around">
+                <div class="card col-md-3 mx-3 my-3" style="box-shadow: 2px 4px 9px rgb(98, 221, 228);">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-info text-center">
+                            <h3 class="fw-bold">Internship at BOC</h3>
+                        </li>
+                        <li class="list-group-item">I had the privilege of interning at BOC Bank, where I gained hands-on experience in the banking industry, applied my ICT skills to real-world scenarios, and developed an understanding of banking operations and technologies. This internship was instrumental in enhancing my practical knowledge and preparing me for a career in technology.</li>
+                        <li class="list-group-item">Duration: 2021-2022</li>
+                    </ul>
+                </div>
+
+                <div class="card col-md-3 mx-3 my-3" style="box-shadow: 2px 4px 9px rgb(98, 221, 228);">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-info text-center">
+                            <h3 class="fw-bold">Table Tennis Coacher</h3>
+                        </li>
+                        <li class="list-group-item">I am a passionate table tennis player representing Jaffna District at the National Level. My dedication to the sport has earned me recognition and the opportunity to compete at various levels, showcasing my skills and sportsmanship. Table tennis has taught me discipline, perseverance, and the value of continuous improvement.</li>
+                        <li class="list-group-item">Duration: 2017-2023</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Skills -->
+        <section id="skills" class="container mt-5">
+            <h2 class="text-center fw-bold fs-1 mt-5">Skills</h2>
+            <div class="row text-center">
+                <div class="col-6 col-md-3">
+                    <div class="p-3">
+                        <h3 class="fw-bold">Programming Languages</h3>
+                        <p>Python, HTML, CSS, JavaScript, Java</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3">
+                        <h3 class="fw-bold">Frameworks</h3>
+                        <p>React, Node.js</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3">
+                        <h3 class="fw-bold">Tools</h3>
+                        <p>Git, GitHub, VS Code</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3">
+                        <h3 class="fw-bold">Soft Skills</h3>
+                        <p>Communication, Teamwork, Problem-solving</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Blog -->
+        <section id="blog" class="container mt-5">
+            <h2 class="text-center fw-bold fs-1 mt-5">Blog</h2>
+            <div class="row text-center">
+                <div class="col-md-4 my-3">
+                    <div class="card" style="box-shadow: 2px 4px 9px rgb(98, 221, 228);">
+                        <img src="image/back image.jpg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Post Title</h5>
+                            <p class="card-text">Scientific World</p>
+                            <a href="https://medium.com/@lakshiga20021216/scientific-world-ba0e9f77a531" class="btn btn-info">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card" style="box-shadow: 2px 4px 9px rgb(98, 221, 228);">
+                        <img src="image/back image.jpg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Post Title</h5>
+                            <p class="card-text">Failure Is The First Step Of Success</p>
+                            <a href="https://medium.com/@lakshiga20021216/failure-is-the-first-step-of-success-2956c92e5b18" class="btn btn-info">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="card" style="box-shadow: 2px 4px 9px rgb(98, 221, 228);">
+                        <img src="image/back image.jpg" class="card-img-top" alt="Blog Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Post Title</h5>
+                            <p class="card-text">Social Media</p>
+                            <a href="https://medium.com/@lakshiga20021216/social-media-5df789a8303f" class="btn btn-info">Read more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <hr>
-        <div class="fullbody">
-            <div id="about1" style="margin-top:15% ;" class="col-md-8 mx-auto">
-                <h2 class="about1" style="font-size: 50px;">About me</h2>
-                <p class="aboutp">My name is Lakshiga Mahintherrajaa. I am a dedicated table tennis player at the
-                    national level,constantly striving to improve my skills and compete at the highest levels.
 
-                    Academically, I completed my diploma in Information and Communication Technology (ICT) at ICBT
-                    Campus, where I developed a solid foundation in various technical disciplines. My educational
-                    journey equipped me with practical knowledge and hands-on experience in ICT, preparing me for a
-                    career in technology.
-
-                    To further enhance my professional experience, I completed an internship at BOC Bank. This
-                    training provided me with valuable insights into the banking industry and practical experience
-                    in applying my ICT skills in a real-world setting
-
-                    Welcome to my portfolio,where you can explore my journey, projects, and accomplishments in both
-                    the ICT field and my table tennis career.</p>
-            </div>
-            <br>
-            <hr><br>
-            <!-- Education -->
-            <h2 class="text-center fw-bold fs-1">Education</h2>
-            <section id="education" class=" d-flex justify-content-between">
-
-                <div class="row ml-5">
-                    <div class="card col-3 offset-1 mx-5 " style=" box-shadow:2px 4px 9px rgb(98, 221, 228);">
-                        <ul class="list-group list-group-flush ">
-                            <li class="list-group-item bg-info">
-                                <h3 class="text-center fw-bold">High school</h3>
-                            </li>
-                            <li class="list-group-item ">Attended J/Vembadi Girls High School , where I developed a
-                                strong
-                                academic foundation and a
-                                passion for technology. During my time there ,I excelled in subjects like Mathematics,
-                                Arts
-                                and
-                                Computer science,participated in Art clubs , and engaged in various extracurricular
-                                activities
-                                such as drewing competitions and Quize competitions </li>
-                            <li class="list-group-item">Duration: 2013 -2021</li>
-                        </ul>
-                    </div>
-
-                    <div class="card col-3 offset-1    mx-5" style="box-shadow:  2px 4px 9px rgb(98, 221, 228);">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item bg-info">
-                                <h3 class="text-center fw-bold">ICBT Compus</h3>
-                            </li>
-                            <li class="list-group-item">I attended ICBT Compus of Jaffna Where I an pursuing
-                                Certification
-                                in
-                                ICT
-                                Technician . emphasizing both theoretical knowledge and practical skills. Through
-                                comprehensive
-                                coursework, hands-on projects , and internships , i have gained proficiency in
-                                programming
-                                languages
-                                such as Python, HTML,and CSS ,and Micrisof Office management skills.</li>
-                            <li class="list-group-item">Duration: 2022-2023</li>
-                        </ul>
-                    </div>
-
-                    <div class="card col-3 offset-1   mx-5" style="box-shadow:  2px 4px 9px rgb(98, 221, 228);">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item bg-info">
-                                <h3 class="text-center fw-bold">Uki Coding School</h3>
-                            </li>
-                            <li class="list-group-item">Ian currently enrolled at Uki coding school , a cutting - edge
-                                institution
-                                dedicated to providing top-tiereducation in Full Slack Web development. At Uki Coding
-                                School
-                                .
-                                including programming languages like HTML,CSS,JavaScript, and Java,as well as modern
-                                development
-                                frameworks such as Reach ,Node.js.</li>
-                            <li class="list-group-item">Duration:2024-Following</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <hr>
-            <!-- Project -->
-            <section>
-                <h2 class="text-center fw-bold fs-1">Project</h2>
-                <br>
-                <div class="row d-flex justify-content-around">
-                    <div class="col-md-4 col-6 offset-1">
-                        <a href="https://github.com/"><img src="image/project_management_coursefees.avif"
-                                class="card-img-top mx-auto " style="width: 200px; height:200px; margin-top:8px; "
-                                alt="boc logo">
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-6 offset-1">
-                        <a href="https://github.com/"><img src="image/project-management.webp"
-                                class="card-img-top mx-auto " style="width: 200px; height:200px; margin-top:8px; "
-                                alt="boc logo">
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Experience -->
-            <section id="experience" class="container mt-5">
-                <h2 class="text-center fw-bold fs-1">Experience</h2>
-                <br>
-                <div class="row d-flex justify-content-around">
-                    <div class="card col-5 mx-auto" style="width: 18rem; ">
-                        <img src="image/unnamed.png" class="card-img-top mx-auto "
-                            style="width: 100px; height:100px; margin-top:8px; " alt="boc logo">
-                        <hr>
-                        <div class="card-body">
-                            <p class="card-text">
-                            <div class=" fs-5">
-                                <h3 class="fw-bold">Training Programme</h3>
-                                <p>bank of Ceylon </p>
-                                <p>Successfully completed on the “ Job Skills Development Traning Programme for School
-                                    Leavers “ at bank of Ceylon , Jaffna Super Grade Branch.
-                                </p>
-                                <p>Duration:2023-2024</p>
-
-                            </div>
-                            </p>
+        <!-- Contact -->
+        <section id="contact" class="container mt-5">
+            <h2 class="text-center fw-bold fs-1 mt-5">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
                         </div>
-                    </div>
-                    <div class="card col-5 mx-auto" style="width: 18rem; ">
-                        <img src="image/table-tennis-table.jpeg" class="card-img-top mx-auto "
-                            style="width: 100px; height:100px; margin-top:8px; " alt="boc logo">
-                        <hr>
-                        <div class="card-body">
-                            <p class="card-text">
-                            <div class=" fs-5">
-                                <h3 class="fw-bold">Coacher</h3>
-                                <p>School & Club </p>
-                                <p>Coaching table tennis in schools and clubs fosters both athletic skills and personal
-                                    development in
-                                    students, enhancing their physical fitness, hand-eye coordination, and life skills
-                                    like discipline,
-                                    teamwork, and perseverance.
-                                </p>
-                                <p>Duration:2021 to now</p>
-
-                            </div>
-                            </p>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
                         </div>
-                    </div>
-                </div>
-            </section>
-            <br>
-            <hr><br>
-
-            <!-- Skills -->
-            <section id="skills" class="container mt-5">
-                <h2 class="text-center fw-bold fs-1">MY SKILLS</h2>
-                <br>
-                <h3 class="text-center fw-bold fs-2" style="text-shadow: 3px 2px 2px rgb(77, 81, 83);">Technical Skills
-                </h3>
-                <div class="row d-flex justify-content-around ">
-                    <div class="card col-md-4 col-12 offset-md-1 " style="width: 18rem;">
-                        <img src="image/html.png" style="width: 100px; height: 100px; "
-                            class="card-img-top mx-auto mt-5" alt="html">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">HTML</h5>
-                            <p class="card-text fs-5">HTML is the foundational language for creating and structuring
-                                content
-                                on the web, essential for building and displaying web pages.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4"></textarea>
                         </div>
-                    </div>
-
-                    <div class="card col-md-4 col-12 offset-md-1" style="width: 18rem;">
-                        <img src="image/CSS-Logo.jpg" style="width: 150px; height: 100px;  "
-                            class="card-img-top mx-auto mt-5" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">CSS</h5>
-                            <p class="card-text fs-5">CSS enhances the appearance of HTML documents by enabling the
-                                separation of content from design, allowing for more flexible and visually appealing web
-                                pages.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-
-                    <div class="card col-md-4 col-12 offset-md-1" style="width: 18rem;">
-                        <img src="image/visual basic.png" style="width: 130px; height: 100px; "
-                            class="card-img-top mx-auto mt-5 " alt="visual">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">visual basic</h5>
-                            <p class="card-text fs-5">Visual Basic is a programming language that simplifies the
-                                development
-                                of Windows applications, making it accessible for creating user-friendly software with
-                                graphical interfaces.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="row d-flex justify-content-around">
-
-                    <div class="card col-md-4 col-12 offset-md-1" style="width: 18rem;">
-                        <img src="image/adobe photoshop.png" style="width: 100px; height: 100px; "
-                            class="card-img-top mx-auto mt-5" alt="adobe">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">Adobe photoshop</h5>
-                            <p class="card-text fs-5">Photoshop is a powerful tool for graphic design and photo editing,
-                                allowing users to create and manipulate images with precision and creativity.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-
-                    <div class="card col-md-4 col-12 offset-md-1" style="width: 18rem;">
-                        <img src="image/microsoft office.png" style="width: 130px; height: 100px; "
-                            class="card-img-top mx-auto mt-5" alt="mso">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">Microsoft office</h5>
-                            <p class="card-text fs-5">Microsoft Office is a suite of productivity applications,
-                                including
-                                Word, Excel, and PowerPoint, that facilitates efficient document creation, data
-                                analysis, and presentations for both personal and professional use.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-
-                    <div class="card col-md-4 col-12 offset-md-1" style="width: 18rem;">
-                        <img src="image/bootstrap-logo-shadow.png" style="width: 120px; height: 100px; "
-                            class="card-img-top mx-auto mt-5" alt="mso">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">Bootstrap</h5>
-                            <p class="card-text fs-5">Bootstrap is a popular front-end framework that provides
-                                pre-designed
-                                components and a responsive grid system, enabling developers to create modern and
-                                mobile-friendly websites quickly.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <!-- professional skill -->
-                <h3 class="text-center fw-bold fs-2" style="text-shadow: 3px 2px 2px rgb(77, 81, 83);">
-                    Professional Skills </h3><br>
-                <div class="row d-flex justify-content-around">
-                    <div class="card col-5 " style="width: 18rem;">
-                        <img src="image/creativity-in-instructional-design.jpg" style="width: 200px; height: 120px; "
-                            class="card-img-top mx-auto mt-5" alt="mso">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">Creativity</h5>
-                            <p class="card-text fs-5">Creativity fuels innovation by enabling the generation of new
-                                ideas and
-                                solutions, which can give a competitive edge and foster growth in any field.</p>
-                        </div>
-                    </div>
-                    <div class="card col-5 " style="width: 18rem;">
-                        <img src="image/team.jpg" style="width: 200px; height: 120px; "
-                            class="card-img-top mx-auto mt-5" alt="mso">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">Team work</h5>
-                            <p class="card-text fs-5">Effective teamwork leverages the diverse strengths and
-                                perspectives of
-                                its members, leading to more comprehensive solutions and improved performance.</p>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="row d-flex justify-content-around">
-                    <div class="card col-5" style="width: 18rem;">
-                        <img src="image/leader.jpg" style="width: 200px; height: 120px; "
-                            class="card-img-top mx-auto mt-5" alt="mso">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">Leadership</h5>
-                            <p class="card-text fs-5">Strong leadership inspires and motivates individuals to work
-                                towards a
-                                common goal, fostering a cohesive and productive environment.</p>
-                        </div>
-                    </div>
-                    <div class="card col-5" style="width: 18rem;">
-                        <img src="image/communication.png" style="width: 200px; height: 120px; "
-                            class="card-img-top mx-auto mt-5" alt="mso">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold fs-4">Communication</h5>
-                            <p class="card-text fs-5">Clear and effective communication ensures that information is
-                                accurately shared and understood, preventing misunderstandings and promoting
-                                collaboration.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-            <br>
-            <hr>
-            <!-- Blog -->
-            <section id="blog" class="container mt-5">
-                <h2 class="text-center fs-1 fw-bold">Blog</h2>
-                <div class="row d-flex justify-content-around">
-                    <a class="col-md-4 col-12 offset-md-1"
-                        href="https://medium.com/@lakshiga20021216/scientific-world-ba0e9f77a531">
-                        <img src="image/medium 1 (1).webp" alt="" style="width:200px; height: 200px;"></a>
-                    <a class="col-md-4 col-12 offset-md-1"
-                        href="https://medium.com/@lakshiga20021216/failure-is-the-first-step-of-success-2956c92e5b18"><img
-                            src="image/medium 2 (1).webp" alt="" style="width:200px; height: 200px;"></a>
-                    <a class="col-md-4 col-12 offset-md-1"
-                        href="https://medium.com/@lakshiga20021216/social-media-5df789a8303f"><img
-                            src="image/medium 3.webp" alt="" style="width:200px; height: 200px;"></a>
-                </div>
-            </section>
-            <br>
-            <hr><br>
-            <!-- Contact -->
-            <section id="contact" class="container mt-5 ">
-                <h2 class="text-center fs-1 fw-bold">Contact Me</h2>
-                <div class="d-flex justify-content-around">
-                    <form style="width: 500px;">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" required>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="3" required></textarea>
-                        </div>
-                        <br>
-                        <div class="btn-box btns d-flex justify-content-around ">
-                            <button type="submit" class="btn btn-success">Submit</button>
-
-                        </div>
+                        <button type="submit" class="btn btn-info">Submit</button>
                     </form>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
+        <hr>
 
         <!-- Footer -->
-        <footer class="text-center mt-5">
-            <p>&copy; 2024 Lakshiga Mahintherrajaa. All Rights Reserved.</p>
-        
+        <footer class="text-center py-4">
+            <p>&copy; 2024 Lakshiga Mahintherrajaa. All rights reserved.</p>
             <div>
                 <img src="image/LinkedIn_icon.svg.png" alt="icon" style="width:3%">
                 <a href="https://lk.linkedin.com/" class="text-light">linkedin</a>
@@ -421,12 +255,10 @@
                 <img src="image/medium.png" alt="icon" style="width:3%">
                 <a href="https://medium.com/" class="text-light">medium</a>
             </div>
-        </footer>
-
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </div>
+       </footer>
 </body>
 
 </html>
