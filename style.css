@@ -1,10 +1,11 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap,family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"');
 
 body {
     font-family: "Kaushan Script";
+    background-color: black;
 }
 span{
     color: rgb(104, 232, 232);
